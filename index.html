@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Logic Gates Tester</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="https://uoninevah.edu.iq/wp-content/uploads/2020/09/nu.png" alt="ÔÚÇÑß" class="logo">
+      <h1>Logic Gates Tester</h1>
+    </header>
+    <main>
+      <div class="inputs">
+        <div>
+          <label for="inputA">Input A:</label>
+          <input type="checkbox" id="inputA">
+        </div>
+        <div>
+          <label for="inputB">Input B:</label>
+          <input type="checkbox" id="inputB">
+        </div>
+      </div>
+      <div class="operations">
+        <button onclick="performLogic('AND')">AND</button>
+        <button onclick="performLogic('OR')">OR</button>
+        <button onclick="performLogic('XOR')">XOR</button>
+        <button onclick="performLogic('NAND')">NAND</button>
+        <button onclick="performLogic('NOR')">NOR</button>
+        <button onclick="performLogic('XNOR')">XNOR</button>
+        <button onclick="performLogic('NOT')">NOT</button>
+      
+      </div>
+      <div class="result">
+        <h2>Output :</h2>
+        <p id="resultValue">-</p>
+      </div>
+    </main>
+    <footer>
+      <p>Powered by : Mohameed Mahmood Hamad student in Biomedical Eng in university of ninevah</p>
+      <div class="social-links">
+        <a href="https://uoninevah.edu.iq/" target="_blank">Website</a>
+        <a href="https://web.facebook.com/ninevah.university/" target="_blank">facebook</a>
+        <a href="https://www.instagram.com/uoninevah/" target="_blank">instagram</a>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
